@@ -231,8 +231,8 @@ code {
   background-color: #222222;
   padding: 10px;
   position: absolute;
-  top: 2%;
-  left: 2%;
+  top: 1%;
+  left: 1%;
   z-index: 8000000000;
   transform: translateX(2%);
   transform: translateY(2%);

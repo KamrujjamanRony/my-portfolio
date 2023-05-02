@@ -1,5 +1,5 @@
 import { RxCross1 } from "react-icons/rx";
-import { FaUser, FaGlobe, FaCalendar } from "react-icons/fa";
+import { FaUser, FaGlobe, FaCalendar, FaGithub } from "react-icons/fa";
 
 const ProjectModal = ({ id, open, setOpened, control, projects }) => {
   const project = projects.find((p) => p.id === id);
@@ -41,7 +41,7 @@ const ProjectModal = ({ id, open, setOpened, control, projects }) => {
                     <p style={{ display: "flex" ,justifyItems: "center", alignItems: "center"}}>
                       <FaGlobe style={{color: "#04B0DC", marginRight: "10px"}} />
                       <a href={project?.link} target="_blank" rel="noreferrer">
-                        {project?.link}
+                        Live Website
                       </a>
                     </p>
                   </li>
@@ -86,17 +86,20 @@ const ProjectModal = ({ id, open, setOpened, control, projects }) => {
                 {/* <!-- Share Buttons --> */}
                 <div className="btn-group share-buttons">
                   <div className="block-title">
-                    <h3>Share</h3>
+                    <h3>Source Code</h3>
                   </div>
-                  <a href="#" target="_blank" className="btn">
-                    <i className="fab fa-facebook-f"></i>{" "}
-                  </a>
-                  <a href="#" target="_blank" className="btn">
-                    <i className="fab fa-twitter"></i>{" "}
-                  </a>
-                  <a href="#" target="_blank" className="btn">
-                    <i className="fab fa-dribbble"></i>{" "}
-                  </a>
+                  <p style={{ display: "flex" ,justifyItems: "center", alignItems: "center"}}>
+                      <FaGithub style={{color: "#04B0DC", marginRight: "10px"}} />
+                      <a href={project?.githubClient} target="_blank" rel="noreferrer">
+                        Client
+                      </a>
+                    </p>
+                    {project?.githubServer && <p style={{ display: "flex" ,justifyItems: "center", alignItems: "center"}}>
+                      <FaGithub style={{color: "#04B0DC", marginRight: "10px"}} />
+                      <a href={project?.githubServer} target="_blank" rel="noreferrer">
+                        Server
+                      </a>
+                    </p>}
                 </div>
                 {/* <!-- /Share Buttons --> */}
               </div>
