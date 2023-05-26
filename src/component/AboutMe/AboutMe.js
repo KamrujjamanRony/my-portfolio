@@ -88,7 +88,6 @@ const AboutMe = ({activeMenu}) => {
                         </div>
                         <div className="info-block-w-icon">
                           <div className="ci-icon">
-                            <i className="lnr lnr-laptop-phone"></i>
                           </div>
                           <div className="ci-text">
                             <h4>Web Developer</h4>

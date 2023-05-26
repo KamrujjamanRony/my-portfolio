@@ -2321,19 +2321,6 @@ blockquote {
 .fw-table table td:last-child {
   border-right: 0;
 }
-.lm-animated-bg {
-  position: absolute;
-  width: auto;
-  height: auto;
-  top: -28px;
-  left: -28px;
-  right: -28px;
-  bottom: -28px;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
 .vcentered {
   vertical-align: middle;
   width: 100%;
@@ -2473,7 +2460,7 @@ blockquote {
   display: block;
 }
 @media only screen and (max-width: 1024px) {
-  .lm-animated-bg {
+  .animated-bg {
     display: none;
   }
   .title-block h2 {

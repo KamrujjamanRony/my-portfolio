@@ -21,9 +21,12 @@ const ProjectModal = ({ id, open, setOpened, control, projects }) => {
 
           <div className="row">
             <div className="col-sm-8 col-md-8 portfolio-block">
+              <img src={project?.img} className="mb-4 img-fluid" alt="" />
               <img src={project?.img1} className="mb-4 img-fluid" alt="" />
               <img src={project?.img2} className="mb-4 img-fluid" alt="" />
               <img src={project?.img3} className="mb-4 img-fluid" alt="" />
+              <img src={project?.img4} className="mb-4 img-fluid" alt="" />
+              <img src={project?.img5} className="mb-4 img-fluid" alt="" />
             </div>
             <div className="col-sm-4 col-md-4 portfolio-block">
               {/* <!-- Project Description --> */}

@@ -12,7 +12,6 @@ import LoadingAnimation from "../component/shared/LoadingAnimation";
 import ArrowsNav from "../component/shared/nav/ArrowsNav";
 import { useEffect, useMemo, useState } from "react";
 import { setActiveMenu } from "../features/menu/menuSlice";
-import { useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
 const Home = () => {
@@ -28,8 +27,6 @@ const Home = () => {
   const handleRightArrowClick = () => {
     setActiveMenuIndex(prevIndex => (prevIndex + 1) % numMenuItems.length);
   };
-  const location = useLocation();
-  console.log(location)
 
   return (
     <div className="home">
