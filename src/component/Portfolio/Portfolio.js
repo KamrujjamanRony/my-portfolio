@@ -31,7 +31,7 @@ const Portfolio = ({ activeMenu }) => {
           <div className="col-xs-12 col-sm-12">
             {/* <!-- Portfolio Content --> */}
             <div className="portfolio-content">
-              <ul className="portfolio-filters">
+              {/* <ul className="portfolio-filters">
                 <li className="active">
                   <a
                     className="filter btn btn-sm btn-link"
@@ -86,7 +86,7 @@ const Portfolio = ({ activeMenu }) => {
                     YouTube Videos
                   </a>
                 </li>
-              </ul>
+              </ul> */}
 
               {/* <!-- Portfolio Grid --> */}
               <div className="container">

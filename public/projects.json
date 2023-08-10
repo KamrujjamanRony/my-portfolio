@@ -1,33 +1,27 @@
 [
   {
     "id": 1,
-    "img": "https://i.ibb.co/XkDHFj3/yes-it-thumb.png",
-    "img1": "https://i.ibb.co/5K441s6/yes-it-home.png",
-    "img2": "https://i.ibb.co/DLgmxd3/yes-it-portfolio.png",
-    "img3": "https://i.ibb.co/ck31TMS/yes-it-service.png",
-    "img4": "https://i.ibb.co/X33Swmm/yes-it-about.png",
-    "img5": "https://i.ibb.co/MgHgSQ0/yes-it-blog.png",
-    "name": "Yes IT Ltd.",
-    "description": "Yes IT is one of the fastest growing and forward thinking IT solution companies in Bangladesh, delivering outstanding software outsourcing services to clients in EU (Denmark, Norway, Germany, Sweden), North America and Japan since 2023. We have a successful track record in serving our customers across the globe with vast experience in technical domain such as ASP .Net, C#, Java, PHP, iOS, Android. We have global presence in different time zones. We use latest technology and software for Web, e-commerce, Mobile Technology and Print Media.",
+    "img": "https://i.ibb.co/R7hJSHB/bistro-boss-home.png",
+    "img1": "https://i.ibb.co/nPnwfqF/1.png",
+    "img2": "https://i.ibb.co/WvNp75J/3.png",
+    "img3": "https://i.ibb.co/27Zt1sv/4.png",
+    "img4": "https://i.ibb.co/g45NR07/5.png",
+    "img5": "https://i.ibb.co/Bc87K1Y/screencapture-bistro-boss-15cc7-web-app-dashboard-add-item-2023-08-10-21-54-07.png",
+    "name": "Bistro Boss Restaurant",
+    "description": "Bistro Boss Restaurant – an innovative management web app. Seamlessly featuring distinct dashboard routes for both admin and user roles, this app revolutionizes restaurant operations. With secure authentication, streamline reservations, orders, and menu management. Simplify staff coordination, enhance customer service, and empower eateries for success",
     "details": [
       {
-        "step": "For UI design, I use React-router-dom, Tailwind CSS, Daisy UI, Vanilla CSS, Daisy UI icons."
+        "step": "Bistro Boss Restaurant is an innovative management web app."
       },
       {
-        "step": "For authentication, password rest and email verified I use Firebase authentication and React-firebase-hooks. Also use react-firebase-hooks for get logged in users information such as display name, email etc. I also use Firebase hosting for client side hosting. I also use React-form and html form."
+        "step": "Seamlessly featuring distinct dashboard routes for both admin and user roles, this app revolutionizes restaurant operations."
       },
       {
-        "step": "In this project I use React-router for Routing. And I also use dynamic routing. I create a dashboard with nested-route."
-      },
-      {
-        "step": "Also use react-toastify for toast, use axios for fetching data server side to client side and client side to server side, use heroku for hosting server side."
-      },
-      {
-        "step": "I use stripe to make payment method. I have added the method of pay with Master Card, Debit Card, Transaction id etc."
+        "step": "With secure authentication, streamline reservations, orders, and menu management."
       }
     ],
-    "githubClient": "https://github.com/KamrujjamanRony/yetIt-client",
-    "link": "https://yes-it.netlify.app/",
+    "githubClient": "https://github.com/KamrujjamanRony/bistro-boss-restaurant/",
+    "link": "https://bistro-boss-15cc7.web.app/",
     "tools": [
       "React",
       "Redux",
@@ -39,13 +33,81 @@
       "Node.js",
       "MongoDB",
       "Express",
-      "React toastify",
+      "Vite.js",
       "Stripe",
-      "JWT token"
+      "JWT token",
+      "React paginate",
+      "Axios",
+      "React helmet",
+      "React icons",
+      "React Parallax",
+      "React responsive carousel",
+      "React simple captcha",
+      "React tabs",
+      "Sweetalert2",
+      "Swiper.js",
+      "Cors",
+      "Dotenv"
     ]
   },
   {
     "id": 2,
+    "img": "https://i.ibb.co/wK0859Q/3d-portfolio-home.png",
+    "img1": "https://i.ibb.co/dJxVrvP/kamrujjaman-3d.png",
+    "name": "3D Portfolio",
+    "description": "A dynamic React-powered website merging 3D object models and stunning animations. Seamlessly navigate through sections like banner, about, experience, skills, projects, testimonials, and contact. A showcase of my frontend prowess, this project boasts interactive elements, responsive layout, and captivating animations, underscoring my skills in React, creative design, and user experience.",
+    "details": [
+      {
+        "step": "A dynamic React-powered website merging 3D object models and stunning animations."
+      },
+      {
+        "step": "Seamlessly navigate through sections like banner, about, experience, skills, projects, testimonials, and contact. "
+      },
+      {
+        "step": "A showcase of my frontend prowess, this project boasts interactive elements, responsive layout, and captivating animations, underscoring my skills in React, creative design, and user experience."
+      }
+    ],
+    "githubClient": "https://github.com/KamrujjamanRony/3d-portfolio",
+    "link": "https://kamrujjaman-3d.netlify.app/",
+    "tools": [
+      "React",
+      "TailwindCSS",
+      "DaisyUI",
+      "React Router",
+      "Node.js",
+      "React Vertical Timeline Component",
+      "Three.js"
+    ]
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/ThfT3gv/sura-tour-home.png",
+    "img1": "https://i.ibb.co/xmvfqf1/sura-tour.png",
+    "name": "Sura Tour",
+    "description": "Sura Tours, is a responsive travel website, utilizing React and SCSS. Designed and implemented sections encompassing banner, about, features, popular tours booking, client feedback, and contact. Proficiently integrated interactive elements while ensuring seamless UI/UX. Demonstrated adeptness in front-end development, user-centric design, and responsive web design principles.",
+    "details": [
+      {
+        "step": "Sura Tours is a responsive travel website, utilizing React and SCSS."
+      },
+      {
+        "step": "Proficiently integrated interactive elements while ensuring seamless UI/UX."
+      },
+      {
+        "step": "In this project I use React-router for Routing. And I also use dynamic routing. I create a dashboard with nested-route."
+      },
+      {
+        "step": "Also use react-toastify for toast, use axios for fetching data server side to client side and client side to server side, use heroku for hosting server side."
+      },
+      {
+        "step": "I use stripe to make payment method. I have added the method of pay with Master Card, Debit Card, Transaction id etc."
+      }
+    ],
+    "githubClient": "https://github.com/KamrujjamanRony/sura-tours",
+    "link": "https://sura-tour.netlify.app/",
+    "tools": ["React", "SASS", "React Router", "Node.js"]
+  },
+  {
+    "id": 4,
     "img": "https://i.ibb.co/3BjvvD1/sura-0.png",
     "img1": "https://i.ibb.co/G7F2Qc1/sura-1.png",
     "img2": "https://i.ibb.co/brFPwN1/sura-2.png",
@@ -88,7 +150,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 5,
     "img": "https://i.ibb.co/K6pRqbc/street-0.png",
     "img1": "https://i.ibb.co/qYfj6Cv/street-1.png",
     "img2": "https://i.ibb.co/mvzTCpD/street-2.png",
@@ -129,7 +191,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 6,
     "img": "https://i.ibb.co/7X0KVXh/toolkits.jpg",
     "img1": "https://i.ibb.co/khn2vsy/toolkits-1.png",
     "img2": "https://i.ibb.co/qMsPXqF/toolkits-2.png",
